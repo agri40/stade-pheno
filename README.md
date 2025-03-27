@@ -1,6 +1,7 @@
 # Projet de Détection des Stades Phénologiques et de Prédiction du Rendement des Orangers
  
  Ce projet vise à résoudre deux tâches principales : la détection des stades phénologiques des orangers à l'aide de Convolutional Neural Networks (CNN) et la prédiction du rendement des arbres à l'aide du modèle YOLO (You Only Look Once). Ce projet utilise TensorFlow et Keras pour la partie détection des stades, et YOLO pour la prédiction du rendement. Ce système s'inscrit dans le cadre de la gestion d'une ferme d'orangers, permettant une gestion optimisée de la culture.
+---- 
 
 ## Table des matières
 1. [Introduction](#1-introduction)
@@ -19,7 +20,7 @@
 6. [Résultats et Conclusion](#résultats-et-conclusion)
 
 
-
+----
 
 
 ## Introduction
@@ -31,9 +32,14 @@ Détection des stades phénologiques des orangers : La première partie utilise 
 Prédiction du rendement des orangers : La seconde partie se concentre sur l'estimation du rendement des orangers à partir des images. Un modèle YOLO est utilisé pour détecter et compter le nombre de fruits et fleurs sur les arbres, ce qui permet de prédire le rendement en fonction de la densité des fruits détectés.
 
 ----
+
 ## Partie 1: Détection des Stades Phénologiques
 
+---- 
+
 ### 1.1 Description du modèle CNN
+
+----
 
 Le modèle CNN est conçu pour détecter les trois principaux stades phénologiques des orangers :
 
@@ -45,6 +51,7 @@ Le modèle CNN est conçu pour détecter les trois principaux stades phénologiq
 
 Le modèle utilise EfficientNetB0, un modèle pré-entraîné sur ImageNet, comme base pour extraire des caractéristiques d'image, et ajoute des couches de classification personnalisées pour la détection des stades.
 
+----
 
 ### 1.2 Prétraitement des données
 
@@ -58,16 +65,22 @@ Le modèle utilise EfficientNetB0, un modèle pré-entraîné sur ImageNet, comm
 
 - Les images sont ensuite divisées en ensembles d'entraînement, de validation et de test.
 
+---- 
 
 ### 1.3 Entraînement et évaluation
 
 Le modèle est entraîné pendant 20 époques avec les données d’entraînement, en utilisant la fonction de perte categorical_crossentropy et l'optimiseur Adam. Des callbacks comme EarlyStopping et ModelCheckpoint sont utilisés pour arrêter l’entraînement en cas de non-amélioration de la performance et pour sauvegarder les meilleurs poids.
 
+----
+
 ### 1.4 Exportation du modèle en TensorFlow Lite
 Après l'entraînement du modèle, il est converti en TensorFlow Lite pour être utilisé sur des appareils mobiles .
 
+----
 
 ## Partie 2: Prédiction du Rendement avec YOLO
+
+----
 
 ### 2.1 Description du modèle YOLO
 
@@ -82,6 +95,8 @@ Le modèle YOLO (You Only Look Once) est utilisé pour la détection des différ
 Le modèle YOLO est formé pour détecter et compter ces trois catégories d'objets dans les images des orangers. En comptant ces éléments, nous pouvons estimer le rendement global de l'arbre en fonction du nombre de fruits (verts et mûrs) et de fleurs.
 
 Le modèle est affiné pour reconnaître spécifiquement ces objets, en utilisant un dataset annoté comportant des images d'orangers avec des annotations pour chaque catégorie.
+
+----
 
 ### 2.2 Prétraitement des données
 
@@ -102,6 +117,8 @@ Le format des annotations est généralement le suivant :
 
 - Fleurs d'orange : Classe 2
 
+----
+
 ### 2.3 Entraînement et évaluation
 
 Le modèle YOLO est entraîné avec les images annotées pour les trois catégories d'objets. Le nombre d'objets détectés (fruits mûrs, fruits verts et fleurs d'orange) dans chaque image permet de calculer une estimation du rendement de l'arbre.
@@ -116,6 +133,7 @@ Rendement estimé : La prédiction du rendement sera calculée en fonction du no
 ### 1.4 Exportation du modèle en TensorFlow Lite
 Après l'entraînement du modèle, il est converti en TensorFlow Lite pour être utilisé sur des appareils mobiles .
 
+----
 
 ## Installation et Prérequis
 
@@ -140,6 +158,9 @@ Pour exécuter ce projet, assurez-vous d'avoir installé les bibliothèques suiv
 pip install tensorflow opencv-python pandas scikit-learn
 
 ```
+
+----
+
 ## Exécution du projet
 
 Clonez ce repository :
