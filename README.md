@@ -38,7 +38,7 @@ Prédiction du rendement des orangers : La seconde partie se concentre sur l'est
 
 ---- 
 
-### 1.1 Description du modèle CNN
+### Description du modèle CNN
 
 ----
 
