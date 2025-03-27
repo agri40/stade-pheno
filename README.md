@@ -54,7 +54,7 @@ Le modèle utilise EfficientNetB0, un modèle pré-entraîné sur ImageNet, comm
 
 ----
 
-### 1.2 Prétraitement des données
+###  Prétraitement des données
 
 - Les données sont d'abord chargées et prétraitées. Les étapes incluent :
 
