@@ -68,13 +68,13 @@ Le modèle utilise EfficientNetB0, un modèle pré-entraîné sur ImageNet, comm
 
 ---- 
 
-### 1.3 Entraînement et évaluation
+###  Entraînement et évaluation
 
 Le modèle est entraîné pendant 20 époques avec les données d’entraînement, en utilisant la fonction de perte categorical_crossentropy et l'optimiseur Adam. Des callbacks comme EarlyStopping et ModelCheckpoint sont utilisés pour arrêter l’entraînement en cas de non-amélioration de la performance et pour sauvegarder les meilleurs poids.
 
 ----
 
-### 1.4 Exportation du modèle en TensorFlow Lite
+###  Exportation du modèle en TensorFlow Lite
 Après l'entraînement du modèle, il est converti en TensorFlow Lite pour être utilisé sur des appareils mobiles .
 
 ----
@@ -83,7 +83,7 @@ Après l'entraînement du modèle, il est converti en TensorFlow Lite pour être
 
 ----
 
-### 2.1 Description du modèle YOLO
+###  Description du modèle YOLO
 
 Le modèle YOLO (You Only Look Once) est utilisé pour la détection des différents éléments présents sur les orangers, à savoir :
 
@@ -99,7 +99,7 @@ Le modèle est affiné pour reconnaître spécifiquement ces objets, en utilisan
 
 ----
 
-### 2.2 Prétraitement des données
+###  Prétraitement des données
 
 - Les images doivent être annotées pour chaque catégorie (fruits mûrs, fruits verts, fleurs d'orange). Le processus de prétraitement inclut :
 
@@ -120,7 +120,7 @@ Le format des annotations est généralement le suivant :
 
 ----
 
-### 2.3 Entraînement et évaluation
+###  Entraînement et évaluation
 
 Le modèle YOLO est entraîné avec les images annotées pour les trois catégories d'objets. Le nombre d'objets détectés (fruits mûrs, fruits verts et fleurs d'orange) dans chaque image permet de calculer une estimation du rendement de l'arbre.
 
@@ -131,7 +131,7 @@ Lors de l'entraînement, les images sont passées à travers le modèle YOLO, qu
 Une fois le modèle formé, les images des orangers sont analysées pour compter les instances de chaque catégorie (fruits mûrs, fruits verts, fleurs d'orange). En fonction des counts de chaque catégorie, nous pouvons estimer le rendement en termes de nombre de fruits et de fleurs :
 
 Rendement estimé : La prédiction du rendement sera calculée en fonction du nombre total de fruits (verts + mûrs) détectés et des fleurs présentes sur l'arbre.
-### 1.4 Exportation du modèle en TensorFlow Lite
+###  Exportation du modèle en TensorFlow Lite
 Après l'entraînement du modèle, il est converti en TensorFlow Lite pour être utilisé sur des appareils mobiles .
 
 ----
