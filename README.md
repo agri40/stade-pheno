@@ -3,9 +3,9 @@
  Ce projet vise à résoudre deux tâches principales : la détection des stades phénologiques des orangers à l'aide de Convolutional Neural Networks (CNN) et la prédiction du rendement des arbres à l'aide du modèle YOLO (You Only Look Once). Ce projet utilise TensorFlow et Keras pour la partie détection des stades, et YOLO pour la prédiction du rendement. Ce système s'inscrit dans le cadre de la gestion d'une ferme d'orangers, permettant une gestion optimisée de la culture.
 
 ## Table des matières
-1- [Introduction] (#Introduction)
+1-[Introduction](#1-Introduction)
 
-2- [Partie 1: Détection des Stades Phénologiques](#Partie 1: Détection des Stades Phénologiques)
+2-[Partie 1: Détection des Stades Phénologiques](#Partie 1: Détection des Stades Phénologiques)
 
   1- [ Description du modèle CNN](#Description du modèle CNN)
 
