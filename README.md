@@ -3,31 +3,21 @@
  Ce projet vise à résoudre deux tâches principales : la détection des stades phénologiques des orangers à l'aide de Convolutional Neural Networks (CNN) et la prédiction du rendement des arbres à l'aide du modèle YOLO (You Only Look Once). Ce projet utilise TensorFlow et Keras pour la partie détection des stades, et YOLO pour la prédiction du rendement. Ce système s'inscrit dans le cadre de la gestion d'une ferme d'orangers, permettant une gestion optimisée de la culture.
 
 ## Table des matières
-1-[Introduction](#1-Introduction)
+1. [Introduction](#1-introduction)
+2. [Partie 1: Détection des Stades Phénologiques](#2-partie-1-détection-des-stades-phénologiques)
+   1. [Description du modèle CNN](#description-du-modèle-cnn)
+   2. [Prétraitement des données](#prétraitement-des-données)
+   3. [Entraînement et évaluation](#entrainement-et-évaluation)
+   4. [Exportation du modèle en TensorFlow Lite](#exportation-du-modèle-en-tensorflow-lite)
+3. [Partie 2: Prédiction du Rendement avec YOLO](#3-partie-2-prédiction-du-rendement-avec-yolo)
+   1. [Description du modèle YOLO](#description-du-modèle-yolo)
+   2. [Prétraitement des données](#prétraitement-des-données-1)
+   3. [Entraînement et évaluation](#entrainement-et-évaluation-1)
+   4. [Exportation du modèle en TensorFlow Lite](#exportation-du-modèle-en-tensorflow-lite-1)
+4. [Installation et Prérequis](#installation-et-prérequis)
+5. [Exécution du projet](#exécution-du-projet)
+6. [Résultats et Conclusion](#résultats-et-conclusion)
 
-2-[Partie 1: Détection des Stades Phénologiques](#2-Partie 1: Détection des Stades Phénologiques)
-
-  1- [ Description du modèle CNN](#Description du modèle CNN)
-
-  2- [Prétraitement des données](#Prétraitement des données)
-
-  3- [Entraînement et évaluation](#Entraînement et évaluation)
-  4- [Exportation du modèle en TensorFlow Lite] (#Exportation du modèle en TensorFlow Lite)
-
-3- [Partie 2: Prédiction du Rendement avec YOLO](#Partie 2: Prédiction du Rendement avec YOLO)
-
-  1- [Description du modèle YOLO](#Description du modèle YOLO)
-
-  2- [Prétraitement des données](#Prétraitement des données)
-
-  3- [Entraînement et évaluation](#Entraînement et évaluation)
-  4- [Exportation du modèle en TensorFlow Lite](#Exportation du modèle en TensorFlow Lite)
-
-4- [Installation et Prérequis](#Installation et Prérequis)
-
-5- [Exécution du projet](#Exécution du projet)
-
-6- [Résultats et Conclusion](#Résultats et Conclusion)
 
 
 
