@@ -168,7 +168,7 @@ Clonez ce repository :
 
 ``` bash
 
-git clone https://github.com/votre_utilisateur/nom_du_repo.git
+git clone https://github.com/agri40/stade-pheno
 cd nom_du_repo
 
 ```
