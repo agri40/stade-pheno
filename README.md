@@ -6,8 +6,8 @@
 
 ## Table des matières
 1. [Introduction](#1-introduction)
-2. [Partie 1: Détection des Stades Phénologiques](#2-partie-1-détection-des-stades-phénologiques)
-   1. [Description du modèle CNN](#1.1description-du-modèle-cnn)
+2. [Partie 1: Détection des Stades Phénologiques](#partie-1-détection-des-stades-phénologiques)
+   1. [Description du modèle CNN](#1-1-description-du-modèle-cnn)
    2. [Prétraitement des données](#prétraitement-des-données)
    3. [Entraînement et évaluation](#entrainement-et-évaluation)
    4. [Exportation du modèle en TensorFlow Lite](#exportation-du-modèle-en-tensorflow-lite)
