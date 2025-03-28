@@ -112,20 +112,20 @@ Le modèle est affiné pour reconnaître spécifiquement ces objets, en utilisan
 
 Le format des annotations est généralement le suivant :
 
-- Fruits mûrs : Classe 0
+- Fruits mûrs : Classe 2
 
 - Fruits verts : Classe 1
 
-- Fleurs d'orange : Classe 2
+- Fleurs d'orange : Classe 0
 
 ----
 
 ###  Entraînement et évaluation
 
-Le modèle YOLO est entraîné avec les images annotées pour les trois catégories d'objets. Le nombre d'objets détectés (fruits mûrs, fruits verts et fleurs d'orange) dans chaque image permet de calculer une estimation du rendement de l'arbre.
+Le modèle YOLOv8 est entraîné avec les images annotées pour les trois catégories d'objets. Le nombre d'objets détectés (fruits mûrs, fruits verts et fleurs d'orange) dans chaque image permet de calculer une estimation du rendement de l'arbre.
 
 
-Lors de l'entraînement, les images sont passées à travers le modèle YOLO, qui génère des prédictions de bounding boxes avec les classes correspondantes pour chaque objet détecté.
+Lors de l'entraînement, les images sont passées à travers le modèle YOLOv8, qui génère des prédictions de bounding boxes avec les classes correspondantes pour chaque objet détecté.
 
  - Estimation du rendement
 Une fois le modèle formé, les images des orangers sont analysées pour compter les instances de chaque catégorie (fruits mûrs, fruits verts, fleurs d'orange). En fonction des counts de chaque catégorie, nous pouvons estimer le rendement en termes de nombre de fruits et de fleurs :
