@@ -77,7 +77,7 @@ Installez les dépendances nécessaires avec :
 
 ```bash
 pip install tensorflow keras opencv-python pandas roboflow scikit-learn ultralytics
-
+```
 ---
 
 ## 🚀 Comment utiliser le projet
@@ -88,3 +88,4 @@ pip install tensorflow keras opencv-python pandas roboflow scikit-learn ultralyt
 git clone https://github.com/agri40/stade-pheno.git
 cd stade-pheno
 
+```
