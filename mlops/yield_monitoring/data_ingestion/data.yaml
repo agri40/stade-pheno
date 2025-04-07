@@ -1,0 +1,14 @@
+names:
+- flower
+- green
+- mature
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: citurs-stades-2
+  url: https://universe.roboflow.com/amina-belemsaggam/citurs-stades-2/dataset/1
+  version: 1
+  workspace: amina-belemsaggam
+test: ../test/images
+train: ../train/images
+val: ../valid/images
