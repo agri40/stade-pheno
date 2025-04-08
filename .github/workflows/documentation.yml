@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
             # Change de répertoire pour accéder au dossier 'doc'
-      - name: Change directory to 'doc'
-        run: cd doc
+      - name: Change directory to 'docs'
+        run: cd docs
 
       - uses: actions/setup-node@v3
         with:
