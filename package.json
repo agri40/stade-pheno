@@ -1,0 +1,11 @@
+{
+  "name": "stade-pheno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/agri40/stade-pheno.git",
+  "author": "fatimabelgazem <fatima.belgazem@edu.uiz.ac.ma>",
+  "license": "MIT",
+  "dependencies": {
+    "docusaurus": "^1.14.7"
+  }
+}
