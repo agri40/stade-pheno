@@ -12,6 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+            # Change de répertoire pour accéder au dossier 'doc'
+      - name: Change directory to 'doc'
+        run: cd doc
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
