@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkstade_phenolo_documentation=self.webpackChunkstade_phenolo_documentation||[]).push([[9647],{8122:(e,s,n)=>{n.r(s),n.d(s,{default:()=>d});n(6540);var t=n(4164),a=n(1082),o=n(204),r=n(2831),u=n(1410),c=n(4848);function d(e){return(0,c.jsx)(a.e3,{className:(0,t.A)(o.G.wrapper.docsPages),children:(0,c.jsx)(u.A,{children:(0,r.v)(e.route.routes)})})}}}]);
