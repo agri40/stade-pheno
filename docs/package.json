@@ -1,7 +1,9 @@
+
 {
   "name": "stade-phenolo-documentation",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://agri40.github.io/stade-pheno",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

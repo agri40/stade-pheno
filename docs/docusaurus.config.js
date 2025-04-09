@@ -3,13 +3,13 @@ const prismThemes = require('prism-react-renderer').themes;
 module.exports = {
   title: 'Stade Pheno',
   tagline: 'Dinosaurs are cool',
-  url: 'https://yoursite.com',
-  baseUrl: '/',
+  url: 'https://agri40.github.io',
+  baseUrl: '/stade-pheno/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'my-org', // GitHub org/user
-  projectName: 'my-site',     // Repo name
+  organizationName: 'agri40',
+  projectName: 'stade-pheno',    // Repo name
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
