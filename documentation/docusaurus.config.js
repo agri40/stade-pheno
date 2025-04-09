@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/intro', // Lien vers la page d'accueil
+                to: '/', // Lien vers la page d'accueil
               },
             ],
           },
