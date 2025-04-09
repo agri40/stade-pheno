@@ -13,7 +13,7 @@ Ce projet s’inscrit dans une démarche **MLOps** visant à assurer la **qualit
 
 ## 🔄 2. Discipline MLOps
 
-- Respect des **bonnes pratiques CI/CD** .
+- Respect des **bonnes pratiques MLOPS** .
 - Les **pipelines doivent être reproductibles** : toute expérimentation ou modification doit être traçable (données, modèles, hyperparamètres).
 - Usage systématique du **versionnage de code, des modèles, et des jeux de données**.
 
@@ -41,10 +41,27 @@ Ce projet s’inscrit dans une démarche **MLOps** visant à assurer la **qualit
 
 ---
 
-## 🚫 6. Comportements inacceptables
+## 🗂️ 6. Suivi des tâches via le Kanban Board
+
+Tous les contributeurs doivent *obligatoirement* utiliser le *Project Board GitHub* (Kanban) pour suivre leurs tâches :
+
+### Étapes :
+
+1. *Créer une issue* 
+2. *Ajouter les labels* 
+3. *Lier l’issue* au Kanban 
+4. *Créer une branche* à partir de dev avec un nom structuré
+5. *Faire une PR vers dev* en respectant le template fourni
+6. *Placer l’issue en Review* une fois la tâche terminée
+7. Attendre la *validation technique*
+
+
+## 🚫 7. Comportements inacceptables
 
 - Évitons : code non fonctionnel, mauvaise foi dans les revues de code, ou non-respect des étapes de validation.
 - Ne pas contourner les étapes du pipeline MLOps pour des gains de temps immédiats.
-
+- Dégradation volontaire des données et du code
+- Manipulation directe des branches main ou dev sans autorisation
+- Push direct sans PR ni relecture
 ---
 
