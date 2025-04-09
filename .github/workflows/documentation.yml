@@ -16,12 +16,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
-          cache-dependency-path: ./docs/yarn.lock
-      - name: Clear yarn cache
-        run: yarn cache clean
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
       - name: Build website
         run: yarn build
       - name: Deploy to GitHub Pages
